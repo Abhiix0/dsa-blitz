@@ -25,3 +25,19 @@ class Solution:
             last = nums.pop()
             nums.insert(0, last)
 '''
+
+'''
+New array + index mapping
+class Solution:
+    def rotate(self, nums: List[int], k: int) -> None:
+        n = len(nums)
+        k %= n
+
+        result = [0] * n
+
+        for i in range(n):
+            new_index = (i + k) % n
+            result[new_index] = nums[i]
+
+        nums[:] = result
+'''
