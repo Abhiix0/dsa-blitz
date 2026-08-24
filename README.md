@@ -1,2 +1,2 @@
 # dsa-blitz
-A clean, structured archive of Python DSA implementations and algorithmic problem solutions.
+Python DSA, patterns, and algorithmic problem-solving. Clean. Structured. Practical.
